@@ -21,21 +21,36 @@
     <script src="Home.js" type="text/javascript"></script>
 </head>
 <body>
+    <!-- Page content -->
     <div id="content-header">
         <div class="padding">
-            <h1>Welcome</h1>
+            <h1>Invoice Data</h1>
         </div>
     </div>
     <div id="content-main">
         <div class="padding">
-            <p><strong>Add home screen content here.</strong></p>
-            <p>For example:</p>
-            <button id="get-data-from-selection">Get data from selection</button>
-
-            <p style="margin-top: 50px;">
-                <a target="_blank" href="https://go.microsoft.com/fwlink/?LinkId=276812">Find more samples online...</a>
-            </p>
+            <div tabindex="0" class="ms-Dropdown ms-Dropdown--open">
+                <i class="ms-Dropdown-caretDown ms-Icon ms-Icon--caretDown"></i>
+                <select class="ms-Dropdown-select"></select>
+            </div>
+            <span class="ms-Dropdown-title">Choose an order…</span>
+            <div id="selectedOrder"></div>
+            <strong>Date</strong>
+            <div id="date"></div>
+            <strong>Customer Name</strong>
+            <div id="customer_name"></div>
+            <strong>Address</strong>
+            <div id="address_line_1"></div>
+            <div id="address_line_2"></div>
+            <strong>Items</strong>
+            <div id="items"></div>
+            <p></p>
+            <button id="populate" class="ms-Button">
+                <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+                <span class="ms-Button-label">Populate</span>
+                <span class="ms-Button-description">Create an invoice from the given data.</span>
+            </button>
         </div>
-    </div>
+    </div>     
 </body>
 </html>
