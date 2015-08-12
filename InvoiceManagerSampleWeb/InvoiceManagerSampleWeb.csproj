@@ -76,17 +76,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="App\App.css" />
     <Content Include="App\App.js" />
     <Content Include="App\Home\Home.css" />
     <Content Include="App\Home\Home.html" />
     <Content Include="App\Home\Home.js" />
+    <Content Include="Content\fabric.components.min.css" />
+    <Content Include="Content\fabric.min.css" />
     <Content Include="Content\Office.css" />
     <Content Include="Images\Close.png" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\_references.js" />
     <None Include="Scripts\Office\1\outlook-win32.debug-vsdoc.js" />
     <None Include="Scripts\Office\1\office-vsdoc.js" />
