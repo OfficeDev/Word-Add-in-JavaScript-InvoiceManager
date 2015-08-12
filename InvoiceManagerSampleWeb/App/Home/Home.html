@@ -29,11 +29,8 @@
     </div>
     <div id="content-main">
         <div class="padding">
-            <div tabindex="0" class="ms-Dropdown ms-Dropdown--open">
-                <i class="ms-Dropdown-caretDown ms-Icon ms-Icon--caretDown"></i>
-                <select class="ms-Dropdown-select"></select>
-            </div>
-            <span class="ms-Dropdown-title">Choose an order…</span>
+        <Strong>Order ID:</Strong>
+        <select id="orders"></select>
             <div id="selectedOrder"></div>
             <strong>Date</strong>
             <div id="date"></div>
@@ -45,10 +42,10 @@
             <strong>Items</strong>
             <div id="items"></div>
             <p></p>
-            <button id="populate" class="ms-Button">
+            <button id="populate" class="ms-Button ms-Button--compound">
                 <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
                 <span class="ms-Button-label">Populate</span>
-                <span class="ms-Button-description">Create an invoice from the given data.</span>
+                <span class="ms-Button-description">Create an invoice from the data.</span>
             </button>
         </div>
     </div>     
