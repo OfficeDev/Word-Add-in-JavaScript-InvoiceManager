@@ -49,6 +49,7 @@
     <Content Include="InvoiceManagerSampleManifest\InvoiceManagerSample.xml">
       <OpcRelationship>manifest-oemanifest</OpcRelationship>
     </Content>
+    <None Include="PackingSlip.docx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\InvoiceManagerSampleWeb\InvoiceManagerSampleWeb.csproj">
