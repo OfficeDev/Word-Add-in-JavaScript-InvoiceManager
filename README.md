@@ -23,20 +23,13 @@ The second function, initializeOrder, does most of the important work. When the 
 
 <a name="prerequisites"></a>
 ##Prerequisites
+This sample requires the following:  
 
-
-This sample requires the following:
-
-•Word 2013.
-
-
-•Visual Studio 2012; App for Office 2013 project template.
-
-
-•Internet Explorer 9 or Internet Explorer 10.
-
-
-•Basic familiarity with JavaScript and HTML.
+  - Visual Studio 2013 with Update 5 or Visual Studio 2015.  
+  - Word 2013 or later
+  - Internet Explorer 9 or later, which must be installed but doesn't have to be the default browser. To support Office Add-ins, the Office client that acts as host uses browser components that are part of Internet Explorer 9 or later.
+  - One of the following as the default browser: Internet Explorer 9, Safari 5.0.6, Firefox 5, Chrome 13, or a later version of one of these browsers.
+  - Familiarity with JavaScript programming and web services.
 
 <a name="components"></a>
 ##Key components
@@ -103,9 +96,9 @@ You can view a list of the custom XML parts in a document by opening the XML Map
 <a name="additional-resources"></a>
 ## Additional resources ##
 
-- [Office Add-ins](http://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
-- [Bindings object (JavaScript API for Office)](http://msdn.microsoft.com/en-us/library/office/apps/fp160966.aspx)
-- [Binding to regions in a document or spreadsheet](http://msdn.microsoft.com/en-us/library/office/apps/fp123511(v=office.15).aspx)
+- [Office Add-ins](http://msdn.microsoft.com/library/office/jj220060.aspx)
+- [Bindings object (JavaScript API for Office)](http://msdn.microsoft.com/library/office/apps/fp160966.aspx)
+- [Binding to regions in a document or spreadsheet](http://msdn.microsoft.com/library/office/apps/fp123511(v=office.15).aspx)
 
 
 ## Copyright
