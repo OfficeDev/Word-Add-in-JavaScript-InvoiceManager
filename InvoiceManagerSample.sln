@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagerSample", "InvoiceManagerSample\InvoiceManagerSample.csproj", "{A9BD09CF-58BE-4B80-A793-55A94481A6D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManager", "InvoiceManagerSample\InvoiceManager.csproj", "{A9BD09CF-58BE-4B80-A793-55A94481A6D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagerSampleWeb", "InvoiceManagerSampleWeb\InvoiceManagerSampleWeb.csproj", "{9E2BF90B-C935-4BB9-88D7-EA21092123D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoiceManagerWeb", "InvoiceManagerSampleWeb\InvoiceManagerWeb.csproj", "{9E2BF90B-C935-4BB9-88D7-EA21092123D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
