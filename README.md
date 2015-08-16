@@ -88,7 +88,7 @@ You can view a list of the custom XML parts in a document by opening the XML Map
 <a name="troubleshooting"></a>
 ## Troubleshooting
 
-- If the add-in starts with a blank document, ensure that the **StartAction** property of the InvoiceManager project is set to *PackingSlip.docx* and not just to Word.
+- If the add-in starts with a blank document, ensure that the **Start Document** property of the InvoiceManager project is set to *PackingSlip.docx* and not just to Word.
 ![](/assets/start_props.png)
 - If the add-in does not appear in the task pane, Choose **Insert > My Add-ins >  InvoiceManagerSample**.
 
