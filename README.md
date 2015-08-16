@@ -1,15 +1,18 @@
-# Word-Add-in-JavaScript-InvoiceManager
-This sample shows how to create a task pane app for Office that manages invoices in Word.
+# Word add-in: Load data into custom XML parts bound to content controls in a Word document
 
+**Table of contents**
 
-Apps for Office: Create an invoice manager  
+* [Summary](#summary)
+* [Prerequisites](#prerequisites)
+* [Key components of the sample](#components)
+* [Description of the code](#codedescription)
+* [Build and debug](#build)
+* [Troubleshooting](#troubleshooting)
+* [Questions and comments](#questions)
+* [Additional resources](#additional-resources)
 
-
-
-
-Summary: This sample shows how to create a task pane app for Office that manages invoices in Word 2013.
-
-##Description
+<a name="summary"></a>
+##Summary
 
 
 This sample loads order data into an invoice form in Word 2013. It writes customer data to a set of custom XML parts that are bound to content controls within a Word document. Based on user input, it populates forms in the document with customer and order information. To simplify this sample, the order data is stored in the same JavaScript file that creates the app for Office. However, in a real application, that data could come from a data source anywhere on the web.
@@ -18,6 +21,7 @@ The JavaScript code in the Home.js file includes a function for the initialize e
 
 The second function, initializeOrder, does most of the important work. When the Populate button is chosen, this function first calls the  getByNamespaceAsync method of the  CustomXmlParts object to determine whether the packing slip form is already populated. If it is, the function calls the  deleteAysnc method of the  CustomXmlPart object to delete the existing data in the form. Then it calls the  addAsync method of the  CustomXmlParts object to repopulate the form with the selected data.
 
+<a name="prerequisites"></a>
 ##Prerequisites
 
 
@@ -34,7 +38,7 @@ This sample requires the following:
 
 •Basic familiarity with JavaScript and HTML.
 
-
+<a name="components"></a>
 ##Key components
 
 
@@ -56,13 +60,10 @@ The Apps for Office: Create an Invoice Manager sample is created by the InvoiceM
 
 •Home.js file
 
+<a name="codedescription"></a>
+##Description of the code
 
-
-##Configure the sample
-
-
-No additional configuration is necessary.
-
+<a name="build"></a>
 ##Build the sample
 
 
