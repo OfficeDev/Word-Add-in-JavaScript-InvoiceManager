@@ -85,19 +85,28 @@ Run and test the sample
 
 You can view a list of the custom XML parts in a document by opening the XML Mapping pane in Word (Developer tab).
 
-##Troubleshooting
+<a name="troubleshooting"></a>
+## Troubleshooting
+
+- If the add-in starts with a blank document, ensure that the **StartAction** property of the CorporateBio project is set to *CorporateBio.docx* and not just to Word.
+- If the add-in does not appear in the task pane, Choose **Insert > My Add-ins >  Corporate Bio**.
+
+<a name="questions"></a>
+## Questions and comments
+
+- If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/Word-Add-in-JavaScript-BindContentControls).
+- Questions about Office Add-ins development in general should be posted to [Stack Overflow](http://stackoverflow.com/questions/tagged/office-addins). Make sure that your questions or comments are tagged with [office-addins].
 
 
-If the app fails to respond as described, try reloading it. (In the task pane, choose the down arrow, and then choose Reload.)
+<a name="additional-resources"></a>
+## Additional resources ##
 
-##Change log
-
-
-Third release.
-
-##Related content
+- [Office Add-ins](http://msdn.microsoft.com/en-us/library/office/jj220060.aspx)
+- [Bindings object (JavaScript API for Office)](http://msdn.microsoft.com/en-us/library/office/apps/fp160966.aspx)
+- [Binding to regions in a document or spreadsheet](http://msdn.microsoft.com/en-us/library/office/apps/fp123511(v=office.15).aspx)
 
 
-•JavaScript API for Office 
+## Copyright
+Copyright (c) 2015 Microsoft. All rights reserved.
 
 
