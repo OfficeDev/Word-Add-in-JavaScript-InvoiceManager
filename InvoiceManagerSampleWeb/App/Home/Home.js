@@ -13,8 +13,14 @@
             var _document;
 
             _document = Office.context.document;
+           
+            
             setupMyOrders();
             initializeOrder();
+
+            // Make sure the doc that accompanies this sample is loaded.
+            // This doc contains the customXMLParts and content controls used by this sample.
+            checkSampleDocLoaded();
 
             function initializeOrder() {
                 $.each(myOrders, function (index, value) {
@@ -138,6 +144,27 @@
                 myOrders.push(order1);
                 myOrders.push(order2);
                 myOrders.push(order3);
+            }
+
+            function checkSampleDocLoaded() {
+
+                //Get the URL of the current file.
+                Office.context.document.getFilePropertiesAsync(function (asyncResult) {
+                    var fileUrl = asyncResult.value.url;
+
+                    // Find the warning section on the page. We'll hide or show it
+                    // depending on whether the sample doc is loaded or not. 
+                    var elem = document.getElementById('warning');
+
+                    // Note: If you change the name of the sample doc in the InvoiceManager.csproj, don't
+                    // forget to update it here 
+                    if (fileUrl == "" || fileUrl.indexOf("PackingSlip.docx") == -1) {
+                        elem.style.display = 'block'; // show warning
+                    }
+                    else {
+                        elem.style.display = 'none'; // hide warning
+                    }
+                });
             }
 
         });
