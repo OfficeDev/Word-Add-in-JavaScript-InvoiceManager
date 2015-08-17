@@ -35,13 +35,13 @@ This sample requires the following:
 ##Key components
 #### InvoiceManager project
 
-* [InvoiceManagerSample/InvoiceManagerManifest/InvoiceManager.xml](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSample/InvoiceManagerManifest/InvoiceManager.xml)
-* [InvoiceManagerSample/PackingSlip.docx](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSample/PackingSlip.docx)
+* [InvoiceManager.xml](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSample/InvoiceManagerManifest/InvoiceManager.xml) The manifest file for the Word add-in.
+* [PackingSlip.docx](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSample/PackingSlip.docx) The example packign slip Word document used in this sample. 
 
 #### InvoiceManagerWeb project
 
-* [InvoiceManagerSample/InvoiceManagerWeb/App/Home/Home.html](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSampleWeb/App/Home/Home.html)
-* [InvoiceManagerSample/InvoiceManagerWeb/App/Home/Home.js](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSampleWeb/App/Home/Home.js)
+* [Home.html](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSampleWeb/App/Home/Home.html) The HTML user interface for the Word add-in.
+* [Home.js](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSampleWeb/App/Home/Home.js)
 
 
 <a name="codedescription"></a>
