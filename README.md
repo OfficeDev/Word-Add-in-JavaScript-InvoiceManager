@@ -1,4 +1,4 @@
-# Word add-in: Load data into custom XML parts bound to content controls in a Word document
+# Word add-in: Loading data into custom XML parts bound to content controls in a Word document
 
 **Table of contents**
 
@@ -14,16 +14,12 @@
 <a name="summary"></a>
 ##Summary
 
-Demonstrates how to use the [JavaScript API for Office](https://msdn.microsoft.com/library/b27e70c3-d87d-4d27-85e0-103996273298(v=office.15)) to write data to a set of custom XML parts that are bound to content controls within a Word document. 
+In this sample we show you how to use the [JavaScript API for Office](https://msdn.microsoft.com/library/b27e70c3-d87d-4d27-85e0-103996273298(v=office.15)) to write data to a set of custom XML parts that are bound to content controls within a Word document. The following is a  picture of the scenario in question.
 
 ![Screenshot of running sample](https://cloud.githubusercontent.com/assets/8550529/9298298/4b980684-4461-11e5-8c00-8f86701e55c2.PNG)
 
-The scenario demonstrated in this sample is that of creating packing slips from customer order data.  To simplify this sample, the order data is stored in the same JavaScript file that creates the add-in. However, in a real application, that data could come from a data source anywhere on the web.
-It writes customer data to a set of custom XML parts that are bound to content controls within a Word document. Based on user input, it populates forms in the document with customer and order information. To simplify this sample, the order data is stored in the same JavaScript file that creates the app for Office. However, in a real application, that data could come from a data source anywhere on the web.
+We are creating packing slips from customer order data. The packing slip document is shown on the left of the preceding screen shot, with our Office Add-in on the right as a task pane app. When you select an order using the order id drop-down in the task pane on the right and then click the Populate button, the packing slip document is populated with data from that order.  The sample uses the Javascript API for Office to interact with the Word document by populating custom XML parts defined in the document with order data. These custom XML parts are bound to content controls that define the UI or the document. To simplify this sample, the order data is stored in the same JavaScript file that creates the add-in. However, in a real application, that data could come from a data source anywhere on the web.
 
-The JavaScript code in the Home.js file includes a function for the initialize event, which waits for the DOM to load, gets a reference to the current document, and then calls two other functions. The first of these, setupMyOrders, creates an array to hold the order data.
-
-The second function, initializeOrder, does most of the important work. When the Populate button is chosen, this function first calls the  getByNamespaceAsync method of the  CustomXmlParts object to determine whether the packing slip form is already populated. If it is, the function calls the  deleteAysnc method of the  CustomXmlPart object to delete the existing data in the form. Then it calls the  addAsync method of the  CustomXmlParts object to repopulate the form with the selected data.
 
 <a name="prerequisites"></a>
 ##Prerequisites
@@ -39,16 +35,11 @@ This sample requires the following:
 ##Key components
 
 
-The Apps for Office: Create an Invoice Manager sample is created by the InvoiceManager solution, which contains the following projects and important files:
+The InvoiceManager project, including the following files:
 
-•The InvoiceManager project, including the following files:
-
-•InvoiceManager.xml manifest file
-
-
-•Packing Slip Document.docx file
-
-
+	•InvoiceManager.xml  - manifest file
+	
+	•PackingSlip.docx - an example packing slip document we'll use in the sample
 
 •The InvoiceManagerWeb project, including the following files:
 
@@ -59,6 +50,8 @@ The Apps for Office: Create an Invoice Manager sample is created by the InvoiceM
 
 <a name="codedescription"></a>
 ##Description of the code
+
+The second function, initializeOrder, does most of the important work. When the Populate button is chosen, this function first calls the  getByNamespaceAsync method of the  CustomXmlParts object to determine whether the packing slip form is already populated. If it is, the function calls the  deleteAysnc method of the  CustomXmlPart object to delete the existing data in the form. Then it calls the  addAsync method of the  CustomXmlParts object to repopulate the form with the selected data.
 
 <a name="build"></a>
 ##Build the sample
