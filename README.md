@@ -14,8 +14,10 @@
 <a name="summary"></a>
 ##Summary
 
+Demonstrates how to use the [JavaScript API for Office](https://msdn.microsoft.com/library/b27e70c3-d87d-4d27-85e0-103996273298(v=office.15)) to write data to a set of custom XML parts that are bound to content controls within a Word document. 
 
-This sample loads order data into an invoice form in Word 2013. It writes customer data to a set of custom XML parts that are bound to content controls within a Word document. Based on user input, it populates forms in the document with customer and order information. To simplify this sample, the order data is stored in the same JavaScript file that creates the app for Office. However, in a real application, that data could come from a data source anywhere on the web.
+The scenario demonstrated in this sample is that of creating packing slips from customer order data.  To simplify this sample, the order data is stored in the same JavaScript file that creates the add-in. However, in a real application, that data could come from a data source anywhere on the web.
+It writes customer data to a set of custom XML parts that are bound to content controls within a Word document. Based on user input, it populates forms in the document with customer and order information. To simplify this sample, the order data is stored in the same JavaScript file that creates the app for Office. However, in a real application, that data could come from a data source anywhere on the web.
 
 The JavaScript code in the Home.js file includes a function for the initialize event, which waits for the DOM to load, gets a reference to the current document, and then calls two other functions. The first of these, setupMyOrders, creates an array to hold the order data.
 
