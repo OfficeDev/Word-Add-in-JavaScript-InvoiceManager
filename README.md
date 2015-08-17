@@ -33,16 +33,16 @@ This sample requires the following:
 
 <a name="components"></a>
 ##Key components
+#### InvoiceManager project
 
 * [InvoiceManagerSample/InvoiceManagerManifest/InvoiceManager.xml](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSample/InvoiceManagerManifest/InvoiceManager.xml)
 * [InvoiceManagerSample/PackingSlip.docx](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSample/PackingSlip.docx)
 
-•The InvoiceManagerWeb project, including the following files:
+#### InvoiceManagerWeb project
 
-•Home.html file
+* [InvoiceManagerSample/InvoiceManagerWeb/App/Home/Home.html](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSampleWeb/App/Home/Home.html)
+* [InvoiceManagerSample/InvoiceManagerWeb/App/Home/Home.js](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSampleWeb/App/Home/Home.js)
 
-
-•Home.js file
 
 <a name="codedescription"></a>
 ##Description of the code
