@@ -34,12 +34,8 @@ This sample requires the following:
 <a name="components"></a>
 ##Key components
 
-
-The InvoiceManager project, including the following files:
-
-	•InvoiceManager.xml  - manifest file
-	
-	•PackingSlip.docx - an example packing slip document we'll use in the sample
+* [InvoiceManagerSample/InvoiceManagerManifest/InvoiceManager.xml](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSample/InvoiceManagerManifest/InvoiceManager.xml)
+* [InvoiceManagerSample/PackingSlip.docx](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSample/PackingSlip.docx)
 
 •The InvoiceManagerWeb project, including the following files:
 
