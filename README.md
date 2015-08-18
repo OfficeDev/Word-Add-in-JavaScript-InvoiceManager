@@ -49,7 +49,7 @@ This solution was created in [Visual Studio](https://msdn.microsoft.com/library/
 <a name="codedescription"></a>
 ##Description of the code
 
-The second function, initializeOrder, does most of the important work. When the Populate button is chosen, this function first calls the  getByNamespaceAsync method of the  CustomXmlParts object to determine whether the packing slip form is already populated. If it is, the function calls the  deleteAysnc method of the  CustomXmlPart object to delete the existing data in the form. Then it calls the  addAsync method of the  CustomXmlParts object to repopulate the form with the selected data.
+For a detailed description of this sample, see [Exploring the JavaScript API for Office: Data Binding and Custom XML Parts](https://msdn.microsoft.com/en-us/magazine/dn166930.aspx)
 
 <a name="build"></a>
 ##Build and debug
