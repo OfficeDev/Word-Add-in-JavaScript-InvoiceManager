@@ -90,6 +90,7 @@ You can view a list of the custom XML parts in a document by opening the XML Map
 ## Additional resources ##
 
 - [Office Add-ins](http://msdn.microsoft.com/library/office/jj220060.aspx)
+- [Anatomy of an Add-in](https://msdn.microsoft.com/library/office/jj220082.aspx#StartBuildingApps_AnatomyofApp)
 - [Bindings object (JavaScript API for Office)](http://msdn.microsoft.com/library/office/apps/fp160966.aspx)
 - [Binding to regions in a document or spreadsheet](http://msdn.microsoft.com/library/office/apps/fp123511(v=office.15).aspx)
 
