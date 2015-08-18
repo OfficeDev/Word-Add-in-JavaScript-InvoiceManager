@@ -41,7 +41,7 @@ This sample requires the following:
 #### InvoiceManagerWeb project
 
 * [Home.html](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSampleWeb/App/Home/Home.html) The HTML user interface for the Word add-in.
-* [Home.js](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSampleWeb/App/Home/Home.js)
+* [Home.js](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/blob/master/InvoiceManagerSampleWeb/App/Home/Home.js) The JavaScript code used by Home.html to interact with Word using the JavaScript for Office API. 
 
 
 <a name="codedescription"></a>
@@ -50,24 +50,17 @@ This sample requires the following:
 The second function, initializeOrder, does most of the important work. When the Populate button is chosen, this function first calls the  getByNamespaceAsync method of the  CustomXmlParts object to determine whether the packing slip form is already populated. If it is, the function calls the  deleteAysnc method of the  CustomXmlPart object to delete the existing data in the form. Then it calls the  addAsync method of the  CustomXmlParts object to repopulate the form with the selected data.
 
 <a name="build"></a>
-##Build the sample
+##Build and debug
+1.Open the InvoiceManager.sln file in Visual Studio.
 
 
-Choose the F5 key in Visual Studio 2012 to build and deploy the app and open it in Word 2013.
-
-Run and test the sample
-
-
-1.Open the InvoiceManager.sln file in Visual Studio 2012.
-
-
-2.Choose the F5 key in Visual Studio 2012 to build and deploy the app.
+2.Press F5 to build and deploy the sample add-in and open it in Word.
 
 
 3.In the app task pane, select an order in the Order ID drop-down list.
 
 
-4.Choose Populate to populate the forms in the Word document with information from the selected order.
+4.Choose Populate to populate the packing slip in the Word document with information from the selected order.
 
 
 You can view a list of the custom XML parts in a document by opening the XML Mapping pane in Word (Developer tab).
