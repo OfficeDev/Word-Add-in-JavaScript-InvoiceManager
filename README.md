@@ -84,6 +84,7 @@ You can view a list of the custom XML parts in a document by opening the XML Map
 <a name="additional-resources"></a>
 ## Additional resources ##
 
+- [More Add-in samples](https://github.com/OfficeDev?utf8=%E2%9C%93&query=-Add-in)
 - [Office Add-ins](http://msdn.microsoft.com/library/office/jj220060.aspx)
 - [Anatomy of an Add-in](https://msdn.microsoft.com/library/office/jj220082.aspx#StartBuildingApps_AnatomyofApp)
 - [Bindings object (JavaScript API for Office)](http://msdn.microsoft.com/library/office/apps/fp160966.aspx)
