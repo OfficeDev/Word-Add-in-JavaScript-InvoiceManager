@@ -67,6 +67,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\App.css" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -76,14 +77,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App\App.css" />
     <Content Include="App\App.js" />
     <Content Include="App\Home\Home.css" />
     <Content Include="App\Home\Home.html" />
     <Content Include="App\Home\Home.js" />
     <Content Include="Content\fabric.components.min.css" />
     <Content Include="Content\fabric.min.css" />
-    <Content Include="Content\Office.css" />
     <Content Include="Images\Close.png" />
     <None Include="Scripts\_references.js" />
     <None Include="Scripts\Office\1\outlook-win32.debug-vsdoc.js" />
