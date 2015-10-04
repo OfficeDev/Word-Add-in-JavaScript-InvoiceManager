@@ -44,7 +44,7 @@
                         }
                     });
                     var xml = $.json2xml(findOrder(myOrders, selectedOrderID));
-                    _document.customXmlParts.addAsync(xml, function (result) { _document.getSelectedDataAsync(Office.CoercionType.Ooxml);});
+                    _document.customXmlParts.addAsync(xml, function (result) { _document.getSelectedDataAsync(Office.CoercionType.Text);});
                 });
                 var selOrder = $("#orders option:selected");
                 popOrder(selOrder.val());
