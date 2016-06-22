@@ -9,6 +9,7 @@
 * [Build and debug](#build)
 * [Troubleshooting](#troubleshooting)
 * [Questions and comments](#questions)
+* [Contributing](#contribute)
 * [Additional resources](#additional-resources)
 
 <a name="summary"></a>
@@ -79,6 +80,12 @@ You can view a list of the custom XML parts in a document by opening the XML Map
 
 - If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/Word-Add-in-JavaScript-InvoiceManager/issues).
 - Questions about Office Add-ins development in general should be posted to [Stack Overflow](http://stackoverflow.com/questions/tagged/office-addins). Make sure that your questions or comments are tagged with [office-addins].
+
+<a name="contribute"></a>
+## Contributing ##
+We encourage you to contribute to our samples. For guidelines on how to proceed, see our [contribution guide](./Contributing.md)
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 
 <a name="additional-resources"></a>
