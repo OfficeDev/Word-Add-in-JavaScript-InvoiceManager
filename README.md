@@ -13,7 +13,7 @@
 * [Additional resources](#additional-resources)
 
 <a name="summary"></a>
-##Summary
+## Summary
 
 In this sample we show you how to use the [JavaScript API for Office](https://msdn.microsoft.com/library/b27e70c3-d87d-4d27-85e0-103996273298(v=office.15)) to write data to a set of custom XML parts that are bound to content controls within a Word document. The following is a  picture of the scenario in question.
 
@@ -23,7 +23,7 @@ We are creating packing slips from customer order data. The packing slip documen
 
 
 <a name="prerequisites"></a>
-##Prerequisites
+## Prerequisites
 This sample requires the following:  
 
   - Visual Studio 2013 with Update 5 or Visual Studio 2015.  
@@ -33,7 +33,7 @@ This sample requires the following:
   - Familiarity with JavaScript programming and web services.
 
 <a name="components"></a>
-##Key components
+## Key components
 
 This solution was created in [Visual Studio](https://msdn.microsoft.com/library/office/fp179827.aspx#Tools_CreatingWithVS). It consists of two projects - InvoiceManager and InvoiceManagerWeb. Here's a list of the key files within those projects. 
 #### InvoiceManager project
@@ -48,12 +48,12 @@ This solution was created in [Visual Studio](https://msdn.microsoft.com/library/
 
 
 <a name="codedescription"></a>
-##Description of the code
+## Description of the code
 
 For a detailed description of this sample, see [Exploring the JavaScript API for Office: Data Binding and Custom XML Parts](https://msdn.microsoft.com/en-us/magazine/dn166930.aspx)
 
 <a name="build"></a>
-##Build and debug
+## Build and debug
 1. Open the InvoiceManager.sln file in Visual Studio.
 2. Press F5 to build and deploy the sample add-in and open it in Word.
 3. On the **Home** ribbon, find the **Invoice Manager** group and press the **Open** button.
