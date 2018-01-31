@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: 'Word add-in: Loading data into custom XML parts bound to content controls in a Word document'
+  path: ''
+  description: This sample Word add-in demonstrates how to load data into custom XML parts bound to content controls in a Word document.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-ins
+  azureDeploy: ''
+  author: AndrewJByrne
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Word
+    scenarios: []
