@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Word
+- Office 365
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 8/11/2015 6:10:38 PM
+---
 # Word add-in: Loading data into custom XML parts bound to content controls in a Word document
 
 **Table of contents**
